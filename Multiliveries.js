@@ -52,7 +52,7 @@ window.addEventListener('message', function(e) {
 console.log("Loading...");
 
 
- await fetch("https://raw.githubusercontent.com/Spice9/Geofs-Multiliveries/main/dependencies/liveries.json")
+ await fetch("https://github.com/FreedomAirways/PRIVATE-GEOFS-LiverySelector/blob/main/livery.json")
  .then(res => res.json())
  .then(data => livObj = data) 
 
